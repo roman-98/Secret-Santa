@@ -1,0 +1,32 @@
+<div class="auth-block">
+<form class="form-4">
+  <h1>Start game</h1>
+  <p>
+      <label for="username">Введіть ваше  ім'я</label>
+      <input formControlName="username" type="text" name="text" placeholder="Ім'я" required>
+  </p>
+  <p>
+      <label for="lastname">Введіть ваше прізвище</label>
+      <input formControlName="lastname" type="text" name='text' placeholder="Прізвище" required>
+  </p>
+  <p>
+    <label for="desire">Напишіть ваше побажання</label>
+    <input formControlName="desire" type="text" name='text' placeholder="Побажання" required>
+</p>
+
+  <p>
+    <button
+      class="modal-action btn waves-effect"
+    >
+      Записати
+    </button>
+  </p>
+  <p routerLink="/play"> 
+    <button 
+      class="modal-action btn waves-effect"
+    > 
+      Грати
+    </button>
+  </p>      
+</form>
+</div>
